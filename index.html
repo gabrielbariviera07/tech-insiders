@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tech Insiders</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class+="cabecalho">
-    <h class="cabecalho-titulo"> TECH INSIDERS</h1>
-    <img class="cabecalho-Imagem"   src="Logo.jpg" alt="Logo Tech Insiders">
-    <ul class="cabecalho-lista">
-      <li class="cabecalho-lista-item"> Quem Somos</li>
-      <li class="cabecalho-lista-item"> Projetos</li>
-      <li class="cabecalho-lista-item"> Login</li>
-  </header>
-  </ul>
+    <div class="header">
+        <h1>Tech Insiders</h1>
+    </div>
+    <div class="menu">
+        <a href="projetos.html">Projetos</a>
+        <a href="quem-somos.html">Quem Somos</a>
+        <a href="login.html">Login</a>
+    </div>
+    <div class="content">
+        <h2>Bem-vindo ao Tech Insiders</h2>
+        <p>Somos um grupo de adolescentes, veja a nossa jornada empolgante da robotica aqui, com criatividade transformando o
+           futuro com engenhosidade e criatividade. Descubra conosco um mundo de inovacao, invencoes e aprendizado na ponta dos dedos!</p>
+    </div>
+    <footer>
+        &copy; 2024 Tech Insiders. Todos os direitos reservados.
+    </footer>
+
+    <script>
+      
+      function goToProjetos() {
+          window.location.href = 'projetos.html';
+      }
+  
+      function goToQuemSomos() {
+          window.location.href = 'quem-somos.html';
+      }
+  
+      function goToLogin() {
+          window.location.href = 'login.html';
+      }
+   </script>
+  
+   <div class="menu">
+      <a href="#" onclick="goToProjetos()">Projetos</a>
+      <a href="#" onclick="goToQuemSomos()">Quem Somos</a>
+      <a href="#" onclick="goToLogin()">Login</a>
+   </div>
+
 </body>
+
 </html>
