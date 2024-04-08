@@ -36,9 +36,10 @@ body {
 
 .Login {
     position: fixed;
-    left: 10px;
+    left: 20px;
     top: 130px;
     display: flex;
+    color: #333;
 }
 
 .Botoes {
@@ -47,7 +48,8 @@ body {
     bottom: 50px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
+    color: #333;
   }
 
 
