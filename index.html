@@ -6,50 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Insiders</title>
     <link rel="stylesheet" href="style.css">
+    <img class="Login-imagem" src="homem.png">
 </head>
 
 <body>
     <div class="header">
         <h1>Tech Insiders</h1>
     </div>
+
+    <div class= "Coluna-Azul"> </div>
     
-    <div class="menu">
-         <button onclick="NavegateToPage('Login.html')">Login</button>
+    <div class="Login">
+         <button id="Login">Login</button>
      </div>
 
-    <div class="content">
+    <div class="titulo">
         <h2>Bem-vindos ao Tech Insiders</h2>
+    </div>
+
+    <div class="texto">
         <p> Somos um grupo de adolescentes comecando na robotica, veja a nossa jornada empolgante da robotica,
             transformando o futuro com engenhosidade e criatividade.
             Descubra conosco um mundo de inovacoes, invencoes e aprendizado na ponta dos dedos! </p>
-            </div>
+    </div>
+
     <footer>
         &copy; 2024 Tech Insiders. Todos os direitos reservados.
     </footer>
 
-    <script>
+    <div class="Botoes">
+        <button id="Quem-Somos">Quem-Somos</button>
+        <button id="Projetos">Projetos </button>
+    </div>
       
-      function goToProjetos() {
-          window.location.href = 'projetos.html';
-      }
-  
-      function goToQuemSomos() {
-          window.location.href = 'quem-somos.html';
-      }
-  
-      function goToLogin() {
-          window.location.href = 'login.html';
-      }
-   </script>
+      <script>
+        document.getElementById("Projetos").onclick = function() {
+            window.location.href = "Projetos.html";
+        };
 
-   <div class="vertical-text">
-    <button
-    onclick="NavegateToPage('Quem-Somos.html')">
-    Quem-Somos</button>
-    <button
-    onclick="NavegateToPage('projetos.html')">
-    Projetos</button>
-   </div>
+        document.getElementById("Quem-somos").onclick = function() {
+            window.location.href = "Quem-somos.html"; 
+        };
+
+        document.getElementById("Login").onclick = function() {
+            window.location.href = "Login.html"; 
+        };
+    </script>
 
 </body>
 
