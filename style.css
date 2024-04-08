@@ -26,14 +26,6 @@ body {
     height: auto;
 }
 
-.Icone {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 100px;
-    height: auto;
-}
-
 .texto {
     text-align: center; 
     position: fixed;
@@ -56,7 +48,7 @@ body {
 
 .Botoes {
     position: fixed;
-    left: 10px;
+    left: 5px;
     bottom: 50px;
     display: flex;
     flex-direction: column;
