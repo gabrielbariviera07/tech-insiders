@@ -40,8 +40,8 @@ body {
 
 .Login {
     position: fixed;
-    left: 20px;
-    top: 110px;
+    left: 30px;
+    top: 100px;
     display: flex;
     color: #333;
 }
