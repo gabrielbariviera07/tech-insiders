@@ -1,7 +1,16 @@
-header {
-    background-color: #4a5981;
-    color: #666;
-
+{
+     margin: 0;
+     padding: 0;
 
 }
 
+
+
+.cabeçalho {
+    background-color: #4a5981;
+    color: #666;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
