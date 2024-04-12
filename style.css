@@ -26,6 +26,14 @@ body {
     z-index: 1;
 }
 
+.Robo {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+}
+
 
 .Login-imagem {
     position: absolute;
@@ -100,4 +108,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
