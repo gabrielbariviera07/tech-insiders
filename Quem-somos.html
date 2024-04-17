@@ -1,25 +1,56 @@
 <!DOCTYPE html>
-<html lang ="en">
-<head>
-    <meta charset="UTF-8">
-     <meta http-equiv="X-UA-compatible" content="IE=edge">
-     <meta name="viewport" content="windth=device-width, initial-escale=1.0">
-     <title>document</title>
-     <link rel="stylesheet" href="style.css">
+<html lang="pt-br">
  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+    <link rel="stylesheet" href="Quem-Somos.css">
 
+ </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Tech Insiders</h1>
+      </div>
 
- <body>
-     <header class="cabecalho">
-      <img class="cabecalho-imagem" src="tech-insiders logo.png" alt="logo do tech-insiders"
-      <ul class="cabecalho-lista">
-         <li class="cabecalho-lista-item">pagina inicial</li>
-         <li class="cabecalho-lista-item">projetos</li>
-         
-     </header>
-   <h1>tech insiders</h1>
-   <u1>
-     <li>pagina inicial</li>
-     <li>projetos</li>
- </body>
- </html>
+      <div class="Login">
+        <ul>
+         <p> <li> <a href="Login.html">Login</a> </p> 
+        </ul>
+      </div>
+    </header>
+
+    <div class="botoes">
+      <ul>
+      <p> <li> <a href="index.html">Pagina inicial</a> </p> 
+      <p> <li> <a href="Projetos.html">Projetos</a>  </p> 
+      </ul>
+    </div>
+      <div class="titulo">
+        <h2>Quem Somos</h2>
+      </div>
+      <div class="texto">
+        <p>Somos um grupo que esta comecando na area de tecnologia,
+           aprendendo sobre a engenharia robotica e suas importancias no mundo moderno</p>
+      </div>
+
+      <script>
+        document.getElementById("Projetos").onclick = function() {
+            window.location.href = "Projetos.html";
+        };
+
+        document.getElementById("Pagina-Inicial").onclick = function() {
+            window.location.href = "index.html"; 
+        };
+
+        document.getElementById("Login").onclick = function() {
+            window.location.href = "Login.html"; 
+        };
+    </script>
+
+    <footer>
+      &copy; 2024 Tech Insiders. Todos os direitos reservados.
+    </footer>
+
+  </body>
+</html>
