@@ -1,56 +1,23 @@
-body {
-    margin: 0; 
-    padding: 0; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh; 
-    background-color: #b1b0b0; 
-    font-family: Arial, sans-serif;
+container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
 }
 
-.header {
+.image {
+    width: ;
+}
+
+  footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    background-color: #4a5981;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    padding: 10px 0;
-    text-align: center;
 }
-
-.Login {
-    position: fixed;
-    left: 30px;
-    top: 100px;
-    display: flex;
-    color: #333;
-    z-index: 1;
-}
-
-.titulo {
-    text-align: center;
-    top: 100px;
-    padding: 20px;
-    font-size: 16px;
-}
-
-.texto {
-    text-align: center;
-    padding: 20px;
-    font-size: 16px;
-    max-width: 600px;
-    left: 300px;
-
- }
-
-.Botoes {
-    position: fixed;
-    left: 5px;
-    bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    color: #333;
-}
-
   footer {
     background-color: #333;
     color: white;
