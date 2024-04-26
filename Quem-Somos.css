@@ -1,29 +1,14 @@
- body {
+body {
   font-family: Arial, sans-serif;
   background-color: #b1b0b0;
+
  }
+
+.header {
+  background-color: #4a5981;
+  
+}
 container {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}
-
-.image {
-    width: 200px;
-    height: 200px;
-    margin: 10px; 
-}
-
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
  display: flex;
  justify-content: center;
  align-items: center;
