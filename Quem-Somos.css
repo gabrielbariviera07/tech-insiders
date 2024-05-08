@@ -1,11 +1,16 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #b1b0b0;
+  margin: 0;
+  padding: 0;
 
  }
 
 .header {
   background-color: #4a5981;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
   
 }
 container {
@@ -13,6 +18,14 @@ container {
  justify-content: center;
  align-items: center;
  height: 100vh;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around: 
+   padding: 20px;
+
 }
 
 .image {
@@ -29,4 +42,15 @@ container {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.sayuri img{
+  width: 250px;
+  margin-bottom: 20px;
+  text-aling: center;
+}
+
+.pietro img{
+  width: 100;
+  border-radius: 50%;
 }
