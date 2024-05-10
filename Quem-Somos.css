@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #b1b0b0;
   margin: 0;
+  text-align: center;
   padding: 0;
 
  }
@@ -10,20 +11,28 @@ body {
   background-color: #4a5981;
   color: #fff;
   text-align: center;
+  border-bottom: 2px solidblack;
   padding: 20px 0;
   
 }
-container {
+.container {
  display: flex;
  justify-content: center;
  align-items: center;
  height: 100vh;
 }
+.botoes{
+  text-align: left;
+}
+.login{
+  
+  margin-left: -70%;
+}
 
 main {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around: 
+   justify-content: space-around;
    padding: 20px;
 
 }
@@ -47,10 +56,14 @@ main {
 .sayuri img{
   width: 250px;
   margin-bottom: 20px;
-  text-aling: center;
+  text-align: center;
+}
+.pessoas{
+  text-align: center;
 }
 
 .pietro img{
+  text-align: center;
   width: 100;
-  border-radius: 50%;
+  border-radius: 15px;
 }
