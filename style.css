@@ -18,7 +18,7 @@ body {
 
 .Login {
     position: fixed;
-    left: 30px;
+    left: 15px;
     top: 100px;
     display: flex;
     color: #333;
@@ -108,3 +108,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
