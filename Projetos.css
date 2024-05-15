@@ -39,7 +39,7 @@ body {
 .Cronometro {
     align-items: center;
     position: absolute;
-    top: 40%;
+    top: 43%;
     left: 25%;
     width: 100px;
     z-index: 1;
@@ -48,7 +48,7 @@ body {
 .texto-Cronometro {
     text-align: center;
     position: fixed;
-    top: 60%;
+    top: 53%;
     left: 18%;
     width: 70%;
     max-width: 300px;
