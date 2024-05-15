@@ -46,9 +46,8 @@ body {
 }
 
 .texto-Cronometro {
-    text-align: center;
     position: fixed;
-    bottom: 46%;
+    top: 46%;
     left: 18%;
     width: 70%;
     max-width: 300px;
