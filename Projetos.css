@@ -25,6 +25,7 @@ body {
     padding: 20px;
     width: 100px;
     height: 100vh;
+    z-index: 0;
     
 }
 
@@ -36,17 +37,18 @@ body {
 }
 
 .Cronometro {
-    display: flex;
+    align-items: center;
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 25%;
     width: 100px;
     z-index: 1;
 }
 
 .texto-Cronometro {
+    text-align: center;
     position: fixed;
-    top: 50%;
+    top: 53%;
     left: 18%;
     width: 70%;
     max-width: 300px;
@@ -56,9 +58,9 @@ body {
 
 .Botoes {
     display: flex;
+    flex-direction: column;
     left: 5px;
     bottom: 50px;
-    flex-direction: column;
     gap: 1px;
     z-index: 1;
 }
