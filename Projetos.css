@@ -39,7 +39,7 @@ body {
 .Cronometro {
     align-items: center;
     position: absolute;
-    top: 43%;
+    top: 36%;
     left: 25%;
     width: 100px;
     z-index: 1;
