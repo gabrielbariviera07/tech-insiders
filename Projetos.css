@@ -37,6 +37,7 @@ body {
 }
 
 .Cronometro {
+    display: flex;
     position: absolute;
     top: 20%;
     left: 25%;
@@ -52,5 +53,14 @@ body {
     max-width: 300px;
     margin: 0;
     font-size: 24px;
+}
+
+.Botoes {
+    display: flex;
+    left: 5px;
+    bottom: 50px;
+    flex-direction: column;
+    gap: 1px;
+    z-index: 1;
 }
 
