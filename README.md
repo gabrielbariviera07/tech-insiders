@@ -11,3 +11,7 @@ Icones utilizados abaixo
 <a href="https://www.flaticon.com/br/icones-gratis/menu-aberto" title="menu aberto ícones">Menu aberto ícones criados por Ilham Fitrotul Hayat - Flaticon</a>
 
 <a href="https://www.flaticon.com/br/icones-gratis/design-de-logotipo" title="design de logotipo ícones">Design de logotipo ícones criados por flatart_icons - Flaticon</a>
+
+<a href="https://www.flaticon.com/br/icones-gratis/localizacao" title="localização ícones">Localização ícones criados por smashingstocks - Flaticon</a>
+
+<a href="https://www.flaticon.com/br/icones-gratis/contato" title="contato ícones">Contato ícones criados por judanna - Flaticon</a>
