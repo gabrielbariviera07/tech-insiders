@@ -9,6 +9,9 @@ body {
 
 .header {
   background-color: #4a5981;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   text-align: center;
   border-bottom: 2px solidblack;
@@ -23,10 +26,6 @@ body {
 }
 .botoes{
   text-align: left;
-}
-.login{
-  
-  margin-left: -70%;
 }
 
 main {
@@ -55,9 +54,10 @@ main {
 }
 
 .sayuri img{
-  width: 250px;
+  width: 450px;
   margin-bottom: 20px;
   text-align: center;
+  border-radius: 13px;
 }
 .pessoas{
   text-align: center;
@@ -65,6 +65,9 @@ main {
 
 .pietro img{
   text-align: center;
-  width: 50px;
+  width: 300px;
   border-radius: 15px;
+}
+.login{
+  text-align: left;
 }
