@@ -54,20 +54,41 @@ main {
 }
 
 .sayuri img{
-  width: 450px;
+  width: 200px;
+  height: 200px;
   margin-bottom: 20px;
   text-align: center;
-  border-radius: 13px;
+  border-radius: 15px;
 }
+
 .pessoas{
   text-align: center;
 }
 
 .pietro img{
   text-align: center;
-  width: 300px;
+  width: 175px;
+  height: 218px;
   border-radius: 15px;
 }
+
+.eric img{
+  width: 150px;
+  height: 220px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.gabriel img{
+  width: 150px;
+  height: 220px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
 .login{
   text-align: left;
 }
+
