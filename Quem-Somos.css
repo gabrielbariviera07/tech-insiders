@@ -1,102 +1,142 @@
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(-180deg, #221d1d 0%, hsl(240, 93%, 34%) 100%);
-  margin: 0;
-  text-align: center;
-  color: white;
-  padding: 0;
-  height: 100vh;
- }
-
-.header {
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  border-bottom: 2px solidblack;
-  padding: 20px 0;
-  
-}
-.container {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}
-.botoes{
-  text-align: left;
-}
-
-main {
-  align-items: center;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   padding: 20px;
-
-}
-
-.image {
-    width: 200px;
-    height: 200px;
-    margin: 10px; 
-}
-
-  footer {
-    background-color: #333;
-    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #b1b0b0;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    padding: 10px;
+    color: black;
+    padding: 0;
+    height: 100vh;
+   }
+  
+  .header {
+    background-color: #4a5981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    border-bottom: 2px;
+    padding: 20px 0;
+    
+  }
+
+  .Login {
     position: fixed;
-    bottom: 0;
-    width: 100%;
-}0
-
-.sayuri img{
-  width: 175px;
-  height: 218px;
-  margin-bottom: 20px;
-  text-align: center;
-  border-radius: 15px;
+    left: 15px;
+    top: 100px;
+    display: flex;
+    z-index: 1;
 }
 
-.pessoas{
-  text-align: center;
+.Login a{
+    color: black;
+    text-decoration: none;
+
 }
 
-.pietro img{
-  text-align: center;
-  width: 175px;
-  height: 218px;
-  border-radius: 15px;
+.Login-imagem {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
 }
 
-.eric img{
-  width: 150px;
-  height: 220px;
-  margin-bottom: 20px;
-  text-align: center;
-  border-radius: 15px;
+.coluna-azul {
+    position: fixed;
+    background-color: #4a5981;
+    top: 0;
+    padding: 20px;
+    width: 120px;
+    height: 100vh;
+    
 }
 
-.gabriel img{
-  width: 150px;
-  height: 220px;
-  margin-bottom: 20px;
-  text-align: center;
-  border-radius: 15px;
-}
+  .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+  }
+  
+  main {
+    align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 20px;
+  
+  }
+  
+  .image {
+      width: 200px;
+      height: 200px;
+      margin: 10px; 
+  }
+  
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  .pessoas{
+    text-align: center;
+  }
 
-.login {
-  top: 70%;
-  position: fixed;
-  text-align: left;
-}
-.titulo{
-  margin-top: 14%;
-}
+  .sayuri img{
+    width: 175px;
+    height: 218px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .pietro img{
+    text-align: center;
+    width: 175px;
+    height: 218px;
+    border-radius: 15px;
+  }
+  
+  .eric img{
+    width: 150px;
+    height: 220px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .gabriel img{
+    width: 150px;
+    height: 220px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .Botoes {
+    position: fixed;
+    left: 5px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    color: #333;
+  }
 
-
+  .Botoes a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .titulo{
+    margin-top: 14%;
+  }
 
