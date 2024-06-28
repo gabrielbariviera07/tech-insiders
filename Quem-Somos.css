@@ -91,8 +91,8 @@ body {
   }
 
   .sayuri img{
-    width: 175px;
-    height: 218px;
+    width: 150px;
+    height: 220px;
     margin-bottom: 20px;
     text-align: center;
     border-radius: 15px;
@@ -100,8 +100,8 @@ body {
   
   .pietro img{
     text-align: center;
-    width: 175px;
-    height: 218px;
+    width: 150px;
+    height: 220px;
     border-radius: 15px;
   }
   
@@ -140,3 +140,7 @@ body {
     margin-top: 14%;
   }
 
+.estudantes {
+  display: grid;
+  grid-template-columns: 35% 35% 35% 35%;
+}
