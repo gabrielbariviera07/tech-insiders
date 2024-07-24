@@ -17,3 +17,5 @@ Icones utilizados abaixo
 <a href="https://www.flaticon.com/br/icones-gratis/contato" title="contato ícones">Contato ícones criados por judanna - Flaticon</a>
 
 <a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram" title="logotipo do instagram ícones">Logotipo do instagram ícones criados por Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por riajulislam - Flaticon</a>
