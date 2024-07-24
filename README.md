@@ -15,3 +15,5 @@ Icones utilizados abaixo
 <a href="https://www.flaticon.com/br/icones-gratis/localizacao" title="localização ícones">Localização ícones criados por smashingstocks - Flaticon</a>
 
 <a href="https://www.flaticon.com/br/icones-gratis/contato" title="contato ícones">Contato ícones criados por judanna - Flaticon</a>
+
+<a href="https://www.flaticon.com/br/icones-gratis/logotipo-do-instagram" title="logotipo do instagram ícones">Logotipo do instagram ícones criados por Pixel perfect - Flaticon</a>
