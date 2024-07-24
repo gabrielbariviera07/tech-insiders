@@ -7,21 +7,29 @@ body {
     color: black;
     padding: 0;
     height: 100vh;
-   }
-  
-  .header {
+}
+
+.header {
     background-color: #4a5981;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: black;
     text-align: center;
     border-bottom: 2px;
-    padding: 20px 0;
-    
-  }
+    padding: 0px 0;
 
-  .Login {
+}
+
+.header h1 {
+    font-size: 40px;
+}
+.header p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.Login {
     position: fixed;
     left: 15px;
     top: 100px;
@@ -29,7 +37,7 @@ body {
     z-index: 1;
 }
 
-.Login a{
+.Login a {
     color: black;
     text-decoration: none;
 
@@ -51,96 +59,98 @@ body {
     padding: 20px;
     width: 120px;
     height: 100vh;
-    
+
 }
 
-  .container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-  }
-  
-  main {
+.container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-     padding: 20px;
-  
-  }
-  
-  .image {
-      width: 200px;
-      height: 200px;
-      margin: 10px; 
-  }
-  
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-  }
-  
-  .pessoas{
-    text-align: center;
-  }
+    height: 100vh;
+}
+img {
+    height: 50px;
+}
 
-  .sayuri img{
+main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.pessoas {
+    text-align: center;
+}
+
+.sayuri {
     width: 150px;
     height: 220px;
-    margin-bottom: 20px;
     text-align: center;
     border-radius: 15px;
-  }
-  
-  .pietro img{
+}
+
+.pietro {
     text-align: center;
     width: 150px;
     height: 220px;
     border-radius: 15px;
-  }
-  
-  .eric img{
+}
+
+.eric {
     width: 150px;
     height: 220px;
-    margin-bottom: 20px;
     text-align: center;
     border-radius: 15px;
-  }
-  
-  .gabriel img{
+}
+
+.gabriel {
     width: 150px;
     height: 220px;
-    margin-bottom: 20px;
     text-align: center;
     border-radius: 15px;
-  }
-  
-  .Botoes {
+}
+
+.Botoes {
     position: fixed;
     left: 5px;
     bottom: 50px;
     display: flex;
     flex-direction: column;
-    gap: 1px;
     color: #333;
-  }
+}
 
-  .Botoes a{
+.Botoes a {
     color: black;
     text-decoration: none;
-    padding: 10px;
-  }
-  .titulo{
-    margin-top: 14%;
-  }
+    padding-left: 30px;
+    font-size: 16px;
+}
 
 .estudantes {
-  display: grid;
-  grid-template-columns: 35% 35% 35% 35%;
+    margin-top: 50pxpx;
+    display: grid;
+    grid-template-columns: 35% 35% 35% 35%;
+}
+
+.estudantes p {
+    font-size: 24px;
+}
+
+.instagram {
+    margin-top: 5px;
+}
+
+.texto {
+    margin-top: 200px;
 }
