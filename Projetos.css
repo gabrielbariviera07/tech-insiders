@@ -142,6 +142,14 @@ footer {
     .coluna-azul {
         display: none;
     }
+
+    .Login-imagem {
+        top: 0;
+    }
+
+    .Login {
+        top: 85px;
+    }
 }
 
 @media (max-width: 470px) {
@@ -158,7 +166,8 @@ footer {
 
     .Botoes {
         position: absolute;
-        right: -320px;
+        left: auto;
+        right: 3px;
         top: 40px;
     }
 
