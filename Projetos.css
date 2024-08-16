@@ -20,10 +20,13 @@ body {
     display: flex;
     color: #333;
     z-index: 1;
-}.Login a{
+}
+
+.Login a {
     color: black;
     text-decoration: none;
 }
+
 .Login-imagem {
     position: absolute;
     top: 10px;
@@ -34,18 +37,18 @@ body {
 }
 
 main {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.Cronometro img{
+.Cronometro img {
     top: 23%;
     left: 44%;
     flex-direction: column;
-    width:  200px;
+    width: 200px;
     height: 200px;
     border-radius: 15px;
 }
@@ -80,7 +83,7 @@ main {
     padding: 20px;
     width: 120px;
     height: 100vh;
-    
+
 }
 
 /*.Projetos{
@@ -117,13 +120,14 @@ video {
     flex-direction: column;
     gap: 1px;
     color: #333;
-  }
+}
 
-.Botoes a{
+.Botoes a {
     color: black;
     text-decoration: none;
     padding: 10px;
 }
+
 footer {
     background-color: #333;
     color: white;
@@ -132,4 +136,33 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 1530px) {
+    .coluna-azul {
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+    .Login-imagem {
+        left: 10px;
+        width: 60px;
+    }
+
+    .Login {
+        position: absolute;
+        left: -23px;
+        top: 60px;
+    }
+
+    .Botoes {
+        position: absolute;
+        right: -320px;
+        top: 40px;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
 }
