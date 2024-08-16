@@ -168,10 +168,11 @@ footer {
         position: absolute;
         left: auto;
         right: 3px;
-        top: 40px;
+        top: 30px;
     }
 
     h1 {
         margin-left: 10px;
+        font-size: 24px;
     }
 }
