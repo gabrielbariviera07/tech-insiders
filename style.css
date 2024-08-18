@@ -154,7 +154,7 @@ footer {
 
 }
 
-@media (max-width: 820px) {
+@media (max-width: 1028px) {
     .coluna-azul {
         display: none;
     }
