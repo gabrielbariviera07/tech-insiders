@@ -41,6 +41,7 @@ body {
     border-radius: 10px;
     border: 1px solid rgb(86, 145, 223);
     background-color: #657296;
+    font-weight: 600;
 }
 
 .BotoesParaFormularios button:hover {
@@ -52,6 +53,20 @@ body {
 .BotoesParaFormularios button:active {
     opacity: 0.8;
     transition: none;
+}
+
+.Cores-Temas {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-weight: 550;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    transform: scale(2); 
+    margin: 10px; 
+    margin-right: 40px;
 }
 
 .Cadastro {
@@ -120,6 +135,27 @@ select {
 }
 
 .BotaoCadastrar:active {
+    opacity: 0.5;
+    transition: none;
+}
+
+.BotaoEntrar {
+    background-color: #43ccdf;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.BotaoEntrar:hover {
+    padding: 12px;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+.BotaoEntrar:active {
     opacity: 0.5;
     transition: none;
 }
