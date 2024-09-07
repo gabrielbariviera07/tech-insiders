@@ -1,44 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="icon" type="imagem/png" href="/tmp/guest-7zvyft/Downloads/user.png">
     <link rel="stylesheet" href="Login.css">
-   
+
 </head>
+
 <body>
+
+    <div class="fundoFormulario"></div>
+
     <div class="navbar">
         <h1>Tech Insiders</h1>
     </div>
 
     <div class="coluna-azul"></div>
 
-    <div class="container">
+    <div class="BotoesParaFormularios">
+        <button class="BotaoCadastro">
+            Sign In
+        </button>
+
+        <button class="BotaoLogIn">
+            Log In
+        </button>
+    </div>
+
+    <div class="Cadastro">
         <h2>Cadastro</h2>
         <form action="#" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
-            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="senha">Senha:</label>
             <input type="password" id="senha" name="senha" required>
-            
-         
-            <button>
-                Cadastrar
+
+
+            <button class="BotaoCadastrar">
+                CADASTRAR
             </button>
-            
+
 
         </form>
     </div>
+
+    <div class="Login">
+        <h2>Entrar</h2>
+        <form action="#" method="post">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+
+            <button class="BotaoCadastrar">
+                CADASTRAR
+            </button>
+
+
+        </form>
+    </div>
+
     <div class="Botoes">
-    <a href="https://gabrielbariviera07.github.io/tech-insiders/">HOME</a>
-    <a href="https://gabrielbariviera07.github.io/tech-insiders/Quem-somos">QUEM SOMOS</a>
-    <a href="https://gabrielbariviera07.github.io/tech-insiders/Projetos">PROJETOS</a>
+        <a href="https://gabrielbariviera07.github.io/tech-insiders/">HOME</a>
+        <a href="https://gabrielbariviera07.github.io/tech-insiders/Quem-somos">QUEM SOMOS</a>
+        <a href="https://gabrielbariviera07.github.io/tech-insiders/Projetos">PROJETOS</a>
     </div>
 
     <div class="barra"></div>
@@ -46,5 +81,7 @@
     <footer>
         &copy; 2024 Tech Insiders. Todos os direitos reservados.
     </footer>
-  </body>
+</body>
+<script src="./Login.js"></script>
+
 </html>
