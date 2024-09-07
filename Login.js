@@ -49,6 +49,7 @@ TemaEscuro.addEventListener("click", function() {
   document.querySelector("footer").style.backgroundColor = "#0e0d0d"
   document.querySelector(".Login").style.backgroundColor = "#313131"
   document.querySelector(".BotaoEntrar").style.backgroundColor = "#161616"
+  document.querySelector("body").style.transition = "0.3s";
 });
 
 TemaClaro.addEventListener("click", function() {
