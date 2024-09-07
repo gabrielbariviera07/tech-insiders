@@ -18,25 +18,66 @@ body {
     color: black;
 }
 
-.container {
+.fundoFormulario {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    visibility: hidden;
+    z-index: 1;
+    position: fixed;
+}
+
+.BotoesParaFormularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.BotoesParaFormularios button {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(86, 145, 223);
+    background-color: #657296;
+}
+
+.BotoesParaFormularios button:hover {
+    padding: 22px;
+    transition: 0.3s ease-in-out;
+    background-color: #6477ad;
+}
+
+.BotoesParaFormularios button:active {
+    opacity: 0.8;
+    transition: none;
+}
+
+.Cadastro {
     max-width: 400px;
-    margin: 100px auto 0;
+    top: 30%;
+    left: -40%;
     padding: 20px;
     background-color: #4A5981;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
+    position: fixed;
+    transition: none;
+    z-index: 2;
 }
 
-.container:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
+.Login {
+    max-width: 400px;
+    top: 30%;
+    left: -40%;
+    padding: 20px;
     background-color: #4A5981;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    transition: none;
+    z-index: 2;
 }
 
 h2 {
@@ -62,69 +103,25 @@ select {
     color: inherit;
 }
 
-button {
-    appearance: button;
-    background-color: #1899D6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px;
+.BotaoCadastrar {
+    background-color: #43ccdf;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
     font-weight: 700;
-    letter-spacing: .8px;
-    line-height: 20px;
-    margin: 0;
-    outline: none;
-    overflow: visible;
-    padding: 5px 150px;
-    text-align: center;
-    text-transform: uppercase;
-    touch-action: manipulation;
-    transform: translateZ(0);
-    transition: filter .2s;
-    user-select: none;
-    -webkit-user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
+    color: white;
 }
 
-button:after {
-    background-clip: padding-box;
-    background-color: #1CB0F6;
-    border: solid transparent;
-    border-radius: 16px;
-    border-width: 0 0 4px;
-    bottom: -4px;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
+.BotaoCadastrar:hover {
+    padding: 12px;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
 }
 
-button:main,
-button:focus {
-    user-select: auto;
-}
-
-button:hover:not(:disabled) {
-    filter: brightness(1.1);
-}
-
-button:disabled {
-    cursor: auto;
-}
-
-button:active:after {
-    border-width: 0 0 0px;
-}
-
-button:active {
-    padding-bottom: 10px;
+.BotaoCadastrar:active {
+    opacity: 0.5;
+    transition: none;
 }
 
 .coluna-azul {
@@ -150,6 +147,7 @@ button:active {
     color: black;
     text-decoration: none;
     padding: 10px;
+    font-weight: 600;
 }
 
 .barra {
