@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <div class="Header">
+    <div class="header">
         <h1>Tech Insiders</h1>
+        <h2>Imagens e Vídeos dos Projetos abaixo</h2>
     </div>
 
     <div class="Login">
@@ -20,53 +21,79 @@
         </ul>
     </div>
 
+    <div class="Cores-Temas">
+        <label> Tema Claro
+            <input onclick="mudarCorVideos()" class="Claro" type="radio" name="Temas" checked>
+        </label>
+        <label> Tema Escuro
+            <input class="Escuro" type="radio" name="Temas">
+        </label>
+    </div>
+
+    <div class="Videos-Imagens">
+
+        <label> Fotos e Videos
+            <input  class="Ambos" type="radio" name="Exibição" checked>
+        </label>
+        <label> Apenas Fotos
+            <input class="Imagens" type="radio" name="Exibição">
+        </label>
+
+        <label> Apenas Videos
+            <input class="Videos" type="radio" name="Exibição">
+        </label>
+    </div>
+
     <div class="coluna-azul"></div>
 
     <main>
         <section class="Cronometro">
             <img class="Cronometro" src="Cronometro.jpeg">
-            <h2>Projeto Cronometro</h2>
-
+            <p>Projeto Cronometro</p>
         </section>
 
-        <section class="Placa-Led">
-            <img class="Placa-Led" src="Placa-Led.jpg">
-            <h3>Projeto Placa Led</h3>
+        <section class="Semaforo">
+            <img class="Semaforo" src="Semaforo.jpg">
+            <p>Semáforo Carros+Pedestres</p>
         </section>
 
         <section class="Painel-Senha">
             <img class="Painel-Senha" src="Painel-Senha.jpg">
-            <h3>Projeto Painel com Senha</h3>
+            <p>Projeto Painel com Senha</p>
         </section>
     </main>
 
     <div class="Sub-titulo">
-        <h4>Vídeos</h4>
+        <h2>Vídeos</h2>
     </div>
 
-    <!-- Prototipo dos Videos: ainda nao 100% funcional
-   <div class="Projetos"> 
-    <div class="Projeto-Cronometro">
-      <video controls>
-        <source src="Cronometro.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="Projeto-Painel">
-     <video controls>
-       <source src="Painel-Senha.mp4" type="video/mp4">
-     </video>
-    </div>
-   </div>
 
-  <div class="texto-Painel">
-    <h5>
-      Video do Projeto Painel com senha
-    </h5>
-  </div>
--->
+    <div class="Projetos">
+        <div class="Projeto-Cronometro">
+            <video class="cron" controls muted>
+                <source src="Cronometro.mp4" type="video/mp4">
+            </video>
+            <p>Projeto Cronometro</p>
+        </div>
+
+        <div class="Projeto-Semaforo">
+            <video class="sem" controls muted>
+                <source src="semaforo.mp4" type="video/mp4">
+            </video>
+            <p>Projeto Semáforo</p>
+        </div>
+
+        <div class="Projeto-Painel-Senha">
+        <video class="Painel" controls muted>
+            <source src="Painel-Senha.mp4" type="video/mp4">
+        </video>
+        <p>Projeto Painel com Senha</p>
+    </div>
+    </div>
+
     <div class="Botoes">
-        <a href="https://gabrielbariviera07.github.io/tech-insiders/">HOME</a>
-        <a href="https://gabrielbariviera07.github.io/tech-insiders/Quem-somos">QUEM SOMOS</a>
+        <a class="HOME" href="https://gabrielbariviera07.github.io/tech-insiders/">HOME</a>
+        <a class="Quem-somos" href="https://gabrielbariviera07.github.io/tech-insiders/Quem-somos">QUEM SOMOS</a>
     </div>
 
     <footer>
@@ -74,5 +101,6 @@
     </footer>
 
 </body>
+<script src="./Projetos.js"></script>
 
 </html>
