@@ -48,7 +48,9 @@ body {
     padding: 22px;
     transition: 0.3s ease-in-out;
     background-color: #6477ad;
+    cursor: pointer;
 }
+
 
 .BotoesParaFormularios button:active {
     opacity: 0.8;
