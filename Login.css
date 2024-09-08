@@ -188,6 +188,12 @@ select {
     font-weight: 600;
 }
 
+.HOME:hover, .Projetos:hover, .Quem-somos:hover {
+    color: #B1B0B0;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
 .barra {
     position: fixed;
     bottom: 0;
