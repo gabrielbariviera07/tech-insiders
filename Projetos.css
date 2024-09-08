@@ -43,12 +43,22 @@ h1,h2 {
     margin-top: 10px;
     margin-left: 100px;
 }
+
+.Login-imagem {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+    scale: 1.0;
+}
+
 .Login {
     position: absolute;
-    left: 15px;
-    top: 100px;
+    left: 55px;
+    top: 120px;
     display: flex;
-    color: #333;
     z-index: 1;
 }
 
@@ -58,13 +68,10 @@ h1,h2 {
     font-weight: 600;
 }
 
-.Login-imagem {
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    width: 100px;
-    height: auto;
-    z-index: 1;
+.Login a:hover {
+    color: #b1b0b0;
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
 
 main {
@@ -78,6 +85,11 @@ main {
 img {
     width: 300px;
     height: 300px;
+}
+
+img:hover {
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 main {
@@ -135,6 +147,11 @@ video {
     background-color: #4a5981;
 }
 
+video:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
 .Projeto-Cronometro {
     margin-left: 10%;
 }
@@ -162,6 +179,12 @@ video {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
+}
+
+.Botoes a:hover {
+    color: #b1b0b0;
+    transform: translateY(-5px);
+    transition: 0.5s;
 }
 
 footer {
