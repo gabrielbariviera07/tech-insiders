@@ -63,5 +63,4 @@ OnlyVideos.addEventListener("click", function() {
     document.querySelector(".Botoes").style.bottom = "50px"
     document.querySelector("footer").style.bottom = "0"
     document.querySelector(".Projetos").style.display = "flex"
-    document.querySelector(".Sub-titulo").style.display = "block"
 })
