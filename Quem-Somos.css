@@ -4,7 +4,6 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: black;
     padding: 0;
     height: 100vh;
     transition: none;
@@ -34,19 +33,23 @@ header p {
 
 .Login {
     position: absolute;
-    left: 15px;
-    top: 100px;
+    left: 55px;
+    top: 120px;
     display: flex;
     z-index: 1;
 }
 
 .Login a {
-    color: black;
     font-weight: bolder;
     text-decoration: none;
-
+    color: black;
 }
 
+.Login a:hover {
+    color: #b1b0b0;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
 
 .Login-imagem {
     position: absolute;
@@ -113,6 +116,11 @@ footer {
     text-align: center;
 }
 
+a img:hover {
+    transition: 0.5s;
+    transform: translateY(-20px)
+}
+
 .sayuri {
     width: 150px;
     height: 220px;
@@ -148,15 +156,21 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: #333;
 }
 
 .Botoes a {
-    color: black;
     font-weight: bolder;
     text-decoration: none;
     padding-left: 30px;
     font-size: 16px;
+    color: black;
+}
+
+
+.Botoes a:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
+    color: #b1b0b0;
 }
 
 .estudantes {
